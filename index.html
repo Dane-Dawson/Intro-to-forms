@@ -8,6 +8,20 @@
         <title>Intro To Forms</title>
     </head>
     <body>
+        <form id="form">
+            <label for="firstName">First Name:  </label>
+            <input type="text" name="firstName" placeholder="First Name"/> 
+            <br/>
+            <label for="lastName">Last Name:  </label>
+            <input type="text" id="lastName" placeHolder="Last Name" />
+            <br/>
+            <select name="hobbies" id="hobbies" name="hobbies" form="form">
+                <option value="juggling">Juggling</option>
+                <option value="reading">reading</option>
+                <option value="paragliding">paragliding</option>
+            </select>
+            <input type="submit" value="Confirm User"/>
+        </form>
         <script src="index.js"></script>
     </body>
 </html>
